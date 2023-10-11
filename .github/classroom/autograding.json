@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW12/hw12-3-structure-and-array.cpp",
+      "run": "./a.out",
+      "input": "y\r\nYorn\r\n15000\r\n4\r\ny\r\nVan\r\n14550\r\n2\r\ny\r\nThane\r\n22500\r\n8\r\nn\r\n",
+      "output": "Average of Salary : 17,350.00 Bath\r\nPayment of every month : 52,050.00 Bath\r\n----------------------------------------\r\n** Most duration in this business **\r\nName : Thane (8 Years)\r\nSalary : 22,500.00 Bath",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
